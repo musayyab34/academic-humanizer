@@ -196,9 +196,9 @@ After you split a sentence, delete a transition or delete a closer, read the pre
 - Repeating a condition is worth it when it tells the reader which setting a number belongs to.
 - Add such a phrase only when the original makes the condition clear (in the text or a cited table). If it doesn't, flag the ambiguity instead.
 
-**Before:** Raising the learning rate from 1e-4 to 3e-4 increases training accuracy from 88.1% to 90.3% while lowering validation accuracy from 81.2% to 79.0%, and with warm-up validation accuracy at that rate improves to 83.5%.
-**After:** Raising the learning rate from 1e-4 to 3e-4 increases training accuracy from 88.1% to 90.3% while lowering validation accuracy from 81.2% to 79.0%. At 3e-4, adding warm-up improves validation accuracy to 83.5%.
-The split works because the manipulation changes (learning rate, then warm-up). "At 3e-4" carries the condition the original stated ("at that rate") into the new sentence.
+**Before:** We collect 12,000 street-scene images from four cities and label them with 19 classes, and because two of the cities have far fewer night-time images, we report night-time results only for the other two.
+**After:** We collect 12,000 street-scene images from four cities and label them with 19 classes. Two of the cities have far fewer night-time images, so we report night-time results only for the other two.
+The second sentence opens with something the reader already has (the cities) and ends on the new information (the reporting decision). "So" stays: without it, the reader has to guess why night-time results are limited.
 
 ### D. Claims
 
